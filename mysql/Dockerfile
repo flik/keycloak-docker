@@ -1,4 +1,4 @@
-FROM jboss/keycloak
+FROM jboss/keycloak:4.1.0.Final
 USER root
 RUN yum -y install which
 USER jboss
